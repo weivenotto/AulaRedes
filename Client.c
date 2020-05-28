@@ -3,6 +3,7 @@
 
 int main(int argc, char *argv[]){
 
+    // weiven 
     //AF_INET - IPv4, SOCK_STREAM - tcp, 0 - IP
     int socket_desc = socket(AF_INET, SOCK_STREAM, 0);
 
